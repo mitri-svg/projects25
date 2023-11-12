@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: purple;
+}
+footer{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    justify-content: center;
+    background-color: darkblue;
+}
+h1{
+    font-size: 1.3em;
+    margin: 10px;
+}
+.container{
+    width: 25%;
+    float: left;
+}
+.item{
+    height: 30px;
+    background-color: deepskyblue;
+    margin: 10px;
+    display: flex;
+    color: white;
+    padding: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+}
+.developer{
+    width: 55%;
+    float: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px;
+}
+.sual{
+    width: 20%;
+    margin: 10px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 26px;
+    background-color: deepskyblue;
+}
+main{
+    display: flex;
+}
+@media (max-width: 695px){
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .webh1{
+        display: flex;
+        justify-content: center;
+    }
+    .container{
+        width: 100%;
+    }
+    .developer{
+        width: 98%;
+    }
+    .sual{
+        width: 98%;
+    }
+}
+.hj{
+    padding: 10px;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.webh1{
+    margin-top: 15px;
+}
+.lorem{
+    padding: 16px;
+}
